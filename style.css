@@ -1,0 +1,57 @@
+/* selector {
+| property: value;
+} */
+
+body {
+    background-color: #274861;
+}
+
+p {
+    color: #A1C8E6;
+}
+
+header {
+    color: #59A6E0;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+nav {
+    background-color: #4580AD;
+    margin-right: 50px;
+}
+
+section{
+    color: #A1C8E6;
+}
+
+a {
+    color: #A1C8E6;
+    
+    float: 50px;
+}
+
+.Link{
+    margin-right: 100px;
+}
+
+#books{
+    width: 33%;
+    float: left;
+    text-align: center;  
+}
+
+#comics{
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+#diary{
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+footer{
+    float: left;
+}
