@@ -4,26 +4,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script>
-        alert("Hello, Welcome to Calliope");
-        let usersName = prompt("What is your name?");
-        console.log("The user's name is ", usersName);
-        let penNameOrNot = prompt("Would you like to use a pen name? (yes or no)");
-        console.log("The user's response to pen name was: ", penNameOrNot );
-        
-        if(penNameOrNot.toLowerCase() == "yes" || penNameOrNot.toLowerCase() == "y"){
-            let penName = prompt("What would you like your pen name to be?");
-            console.log("The user's pen name is", penName);
-            document.write("Hello, ", usersName," (", penName,  ") let's start writing.");
-        } else if (penNameOrNot.toLowerCase() == "no" || penNameOrNot.toLowerCase() == "n"){
-        document.write("Hello, ", usersName, " let's start writing.");
-        }
-       
-
-
-    </script>
+    
     <header>
         <h1>Calliope</h1>
+        <script>
+            alert("Hello, Welcome to Calliope");
+            let usersName = prompt("What is your name?");
+            console.log("The user's name is ", usersName);
+            let penNameOrNot = prompt("Would you like to use a pen name? (yes or no)");
+            console.log("The user's response to pen name was: ", penNameOrNot );
+            
+            if(penNameOrNot.toLowerCase() == "yes" || penNameOrNot.toLowerCase() == "y"){
+                let penName = prompt("What would you like your pen name to be?");
+                console.log("The user's pen name is", penName);
+                document.write("Hello, ", usersName," (", penName,  ") let's start writing.");
+            } else if (penNameOrNot.toLowerCase() == "no" || penNameOrNot.toLowerCase() == "n"){
+            document.write("Hello, ", usersName, " let's start writing.");
+            }
+           
+    
+    
+        </script>
         <nav>
             <a class="Link" href="https://www.google.com">Google</a>
             <a class="Link" href="https://www.thesaurus.com">Thesaurus</a>
