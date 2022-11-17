@@ -1,30 +1,13 @@
 <!DOCTYPE html>
 <head>
     <title>Calliope</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
 </head>
 <body>
-    
     <header>
         <h1>Calliope</h1>
-        <script>
-            alert("Hello, Welcome to Calliope");
-            let usersName = prompt("What is your name?");
-            console.log("The user's name is ", usersName);
-            let penNameOrNot = prompt("Would you like to use a pen name? (yes or no)");
-            console.log("The user's response to pen name was: ", penNameOrNot );
-            
-            if(penNameOrNot.toLowerCase() == "yes" || penNameOrNot.toLowerCase() == "y"){
-                let penName = prompt("What would you like your pen name to be?");
-                console.log("The user's pen name is", penName);
-                document.write("Hello, ", usersName," (", penName,  ") let's start writing.");
-            } else if (penNameOrNot.toLowerCase() == "no" || penNameOrNot.toLowerCase() == "n"){
-            document.write("Hello, ", usersName, " let's start writing.");
-            }
-           
-    
-    
-        </script>
+        <script>hello()</script>
         <nav>
             <a class="Link" href="https://www.google.com">Google</a>
             <a class="Link" href="https://www.thesaurus.com">Thesaurus</a>
@@ -34,16 +17,15 @@
         
         <main>
         <section>
-        <img src="images/library.jpg" alt="Picture of a Library" width="300" height="400">
+        <img src="./images/library.jpg" alt="Picture of a Library" width="300" height="400">
         
         Photo by <a href="https://unsplash.com/@itfeelslikefilm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">🇸🇮 Janko Ferlič</a> on <a href="https://unsplash.com/s/photos/library?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
         <p>Calliope can help your imagination come to life by assisting in writing books, comics, diaries and more. Create and publish with our community</p>
         </section>
-        
         <section id="books">
         <h3>BOOKS</h3>
-        <img src="images/Book.jpg" alt="Picture of a Book" width="300" height="400">
+        <img src="./images/Book.jpg" alt="Picture of a Book" width="300" height="400">
         
         Photo by <a href="https://unsplash.com/@qmikola?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mikołaj</a> on <a href="https://unsplash.com/s/photos/book?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
         <p>Click here to start writing your Book</p>
@@ -52,7 +34,7 @@
         
         <section id="comics">
         <h3>COMICS</h3>
-        <img src="images/comicbook.jpg" alt="Picture of Comic Books" width="300" height="400">
+        <img src="./images/comicbook.jpg" alt="Picture of Comic Books" width="300" height="400">
         
         Photo by <a href="https://unsplash.com/@theshuttervision?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jonathan Cooper</a> on <a href="https://unsplash.com/s/photos/comic-book?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
         <p>Click here to start writing your Book</p>
@@ -60,7 +42,7 @@
         
         <section id="diary">
         <h3>DIARY</h3>
-        <img src="images/diary.jpg" alt="Picture of a diary" width="300" height="400">
+        <img src="./images/diary.jpg" alt="Picture of a diary" width="300" height="400">
         
         Photo by <a href="https://unsplash.com/@marcospradobr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marcos Paulo Prado</a> on <a href="https://unsplash.com/s/photos/diary?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
         <p>Click here to start writing your diary</p>
