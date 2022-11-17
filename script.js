@@ -30,7 +30,7 @@ var skill = prompt("On a scale from 1-10 what would you say your skill at creati
 while(skill < 0 || skill > 10 || skill == 0){
     skill = prompt("Please use a number between 1 and 10")
 }
-for (let i = 0; i <= skill; i++) {
+for (let i = 1; i <= skill; i++) {
     document.write("<img class='pencil' src='./images/pencil.jpg' alt='Pencil' width='25' height='50' />")
 }
 
